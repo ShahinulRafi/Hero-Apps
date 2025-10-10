@@ -1,0 +1,146 @@
+[
+  {
+    "image": "/public/assets/demo-app (1).webp",
+    "title": "UltraComfort Ergonomic Office Chair",
+    "companyName": "ComfortTech",
+    "id": 1,
+    "description": "The UltraComfort Ergonomic Office Chair is designed to provide optimal support and comfort during long hours of sitting. With its adjustable lumbar support, contoured seat cushion, and breathable mesh backrest, this chair promotes healthy posture and reduces back strain. Ideal for both home and office use, it features a sleek modern design that complements any workspace.",
+    "size": 25,
+    "reviews": 120,
+    "ratingAvg": 4.5,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 3 },
+      { "name": "3 star", "count": 12 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 50 }
+    ]
+  },
+  {
+    "image": "/public/assets/demo-app (2).webp",
+    "title": "SmartHome 360 Security Camera",
+    "companyName": "SecureTech",
+    "id": 2,
+    "description": "Enhance your home security with the SmartHome 360 Security Camera. This advanced surveillance camera offers 360-degree rotation, night vision, motion detection, and two-way audio communication. Easily control and monitor your home from anywhere using the dedicated mobile app, ensuring peace of mind whether you're at home or away.",
+    "size": 10,
+    "reviews": 85,
+    "ratingAvg": 4.2,
+    "downloads": 20,
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 15 },
+      { "name": "4 star", "count": 30 },
+      { "name": "5 star", "count": 27 }
+    ]
+  },
+  {
+    "image": "/public/assets/demo-app (3).webp",
+    "title": "EcoBrew Stainless Steel Coffee Maker",
+    "companyName": "EcoBrew",
+    "id": 3,
+    "description": "The EcoBrew Stainless Steel Coffee Maker combines durability with style. Made from high-quality stainless steel, it ensures long-lasting performance and a sleek appearance. With its programmable timer, adjustable brew strength, and large water reservoir, this coffee maker caters to all your brewing needs, delivering a rich and flavorful cup every time.",
+    "size": 15,
+    "reviews": 200,
+    "ratingAvg": 4.7,
+    "downloads": 30,
+    "ratings": [
+      { "name": "1 star", "count": 3 },
+      { "name": "2 star", "count": 2 },
+      { "name": "3 star", "count": 10 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 125 }
+    ]
+  },
+  {
+    "image": "/public/assets/demo-app (4).webp",
+    "title": "FitTrack Pro Smart Fitness Tracker",
+    "companyName": "FitTrack",
+    "id": 4,
+    "description": "The FitTrack Pro Smart Fitness Tracker is your ultimate companion for health and wellness. It monitors heart rate, sleep patterns, steps, and calories burned, providing comprehensive insights into your physical activity. With its sleek design, waterproof build, and compatibility with various fitness apps, it helps you stay motivated and achieve your fitness goals.",
+    "size": 30,
+    "reviews": 150,
+    "ratingAvg": 4.3,
+    "downloads": 40,
+    "ratings": [
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 6 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 60 }
+    ]
+  },
+  {
+    "image": "/public/assets/demo-app (5).webp",
+    "title": "SoundWave Pro Wireless Earbuds",
+    "companyName": "SoundWave",
+    "id": 5,
+    "description": "Experience superior sound quality with the SoundWave Pro Wireless Earbuds. Equipped with noise-canceling technology, these earbuds deliver crystal-clear audio and deep bass. The ergonomic design ensures a secure fit, while the long-lasting battery provides up to 12 hours of continuous playback. Ideal for workouts, commuting, or casual listening.",
+    "size": 20,
+    "reviews": 180,
+    "ratingAvg": 4.6,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 3 },
+      { "name": "3 star", "count": 15 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 100 }
+    ]
+  },
+  {
+    "image": "/public/assets/demo-app (6).webp",
+    "title": "HomeChef Smart Oven",
+    "companyName": "HomeChef",
+    "id": 6,
+    "description": "The HomeChef Smart Oven revolutionizes your cooking experience. With its smart connectivity, you can control the oven remotely via a mobile app, set cooking timers, and receive notifications. The oven features multiple cooking modes, including bake, broil, roast, and air fry, ensuring versatile meal preparation. Its sleek design fits seamlessly into any modern kitchen.",
+    "size": 12,
+    "reviews": 95,
+    "ratingAvg": 4.4,
+    "downloads": 60,
+    "ratings": [
+      { "name": "1 star", "count": 3 },
+      { "name": "2 star", "count": 4 },
+      { "name": "3 star", "count": 10 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 38 }
+    ]
+  },
+  {
+    "image": "/public/assets/demo-app (7).jpeg",
+    "title": "TravelMate Smart Luggage",
+    "companyName": "TravelMate",
+    "id": 7,
+    "description": "TravelMate Smart Luggage is designed for the modern traveler. It features GPS tracking, a built-in power bank for charging devices, and a durable, lightweight frame. The luggage is equipped with a TSA-approved lock and a spacious interior with organizational compartments. With its sleek design and smart features, it ensures a hassle-free travel experience.",
+    "size": 18,
+    "reviews": 110,
+    "ratingAvg": 4.3,
+    "downloads": 70,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 3 },
+      { "name": "3 star", "count": 15 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 47 }
+    ]
+  },
+  {
+    "image": "/public/assets/demo-app (8).jpeg",
+    "title": "AquaPure Water Purifier",
+    "companyName": "AquaPure",
+    "id": 8,
+    "description": "The AquaPure Water Purifier ensures access to clean and safe drinking water. Utilizing advanced filtration technology, it removes contaminants and impurities, providing purified water. The purifier features a compact design suitable for various spaces, easy installation, and low maintenance. Ideal for households and small offices, it promotes health and well-being.",
+    "size": 22,
+    "reviews": 130,
+    "ratingAvg": 4.6,
+    "downloads": 80,
+    "ratings": [
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 3 },
+      { "name": "3 star", "count": 15 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 50 }
+    ]
+  }
+]
