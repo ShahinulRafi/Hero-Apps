@@ -142,5 +142,77 @@
       { "name": "4 star", "count": 60 },
       { "name": "5 star", "count": 50 }
     ]
+  },
+  {
+    "image": "/public/assets/demo-app (9).jpeg",
+    "title": "PixelMaster Graphic Tablet",
+    "companyName": "CreativeTech",
+    "id": 9,
+    "description": "The PixelMaster Graphic Tablet empowers artists and designers with precise stylus control and ultra-responsive touch. Its high-resolution surface captures every stroke accurately, while customizable shortcut keys speed up workflow. Perfect for digital illustration, photo editing, and 3D modeling, it enhances creativity and productivity for professionals and hobbyists alike.",
+    "size": 16,
+    "reviews": 95,
+    "ratingAvg": 4.5,
+    "downloads": 55,
+    "ratings": [
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 4 },
+      { "name": "3 star", "count": 14 },
+      { "name": "4 star", "count": 30 },
+      { "name": "5 star", "count": 45 }
+    ]
+  },
+  {
+    "image": "/public/assets/demo-app (10).jpeg",
+    "title": "AeroDrone Pro Quadcopter",
+    "companyName": "SkyTech",
+    "id": 10,
+    "description": "AeroDrone Pro Quadcopter is built for aerial photography and professional drone enthusiasts. With its high-definition camera, stable flight controls, and long battery life, it delivers stunning photos and videos. The drone includes obstacle sensors, GPS tracking, and programmable flight paths, making it suitable for both hobbyists and professional filmmakers.",
+    "size": 28,
+    "reviews": 70,
+    "ratingAvg": 4.4,
+    "downloads": 40,
+    "ratings": [
+      { "name": "1 star", "count": 3 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 12 },
+      { "name": "4 star", "count": 25 },
+      { "name": "5 star", "count": 25 }
+    ]
+  },
+  {
+    "image": "/public/assets/demo-app (11).jpeg",
+    "title": "EcoCharge Portable Solar Panel",
+    "companyName": "GreenEnergy",
+    "id": 11,
+    "description": "EcoCharge Portable Solar Panel offers sustainable power on the go. Lightweight and foldable, it charges devices efficiently in outdoor environments. With built-in USB ports, durable solar cells, and water-resistant construction, it is perfect for camping, hiking, or emergency situations. Harness solar energy anytime, anywhere, and reduce dependency on conventional power sources.",
+    "size": 14,
+    "reviews": 60,
+    "ratingAvg": 4.6,
+    "downloads": 35,
+    "ratings": [
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 2 },
+      { "name": "3 star", "count": 10 },
+      { "name": "4 star", "count": 20 },
+      { "name": "5 star", "count": 27 }
+    ]
+  },
+  {
+    "image": "/public/assets/demo-app (12).jpeg",
+    "title": "SoundSphere 360 Smart Speaker",
+    "companyName": "AudioTech",
+    "id": 12,
+    "description": "The SoundSphere 360 Smart Speaker delivers immersive audio with 360-degree surround sound. It features voice assistant integration, Wi-Fi and Bluetooth connectivity, and customizable EQ settings. The sleek, modern design complements any room, while its multi-room synchronization ensures a consistent listening experience throughout your home.",
+    "size": 18,
+    "reviews": 85,
+    "ratingAvg": 4.7,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 3 },
+      { "name": "3 star", "count": 12 },
+      { "name": "4 star", "count": 30 },
+      { "name": "5 star", "count": 38 }
+    ]
   }
 ]

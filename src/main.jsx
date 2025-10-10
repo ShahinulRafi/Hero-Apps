@@ -18,11 +18,12 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home></Home>,
-        loader: () => fetch("/public/trending.json").then((res) => res.json())
+        loader: () => fetch("/public/trending.json").then((res) => res.json()),
       },
       {
         path: "Apps",
         element: <Apps></Apps>,
+        loader: () => fetch("/public/allApp.json").then((res) => res.json()),
       },
       {
         path: "installation",

@@ -1,9 +1,16 @@
 import React from 'react';
+import AppDetails from '../AppDetails/AppDetails';
+import { useLoaderData } from 'react-router';
 
 const AllApps = () => {
+    const apps = useLoaderData();
     return (
         <div>
-            All Apps
+            {
+                apps.map(app =>
+                    <AppDetails key={app.id} apps={apps}></AppDetails>
+                )
+            }
         </div>
     );
 };
