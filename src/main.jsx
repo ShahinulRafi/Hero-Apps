@@ -29,6 +29,9 @@ const router = createBrowserRouter([
         path: "installation",
         element: <Installation></Installation>,
       },
+      // {
+      //   path: 
+      // },
       {
         path: "*",
         element: <Error></Error>,

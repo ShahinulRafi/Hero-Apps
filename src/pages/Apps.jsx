@@ -1,19 +1,20 @@
-import React from 'react';
+import React from "react";
 // import { useLoaderData } from 'react-router';
-import AllApps from '../components/AllApps/AllApps';
+import AllApps from "../components/AllApps/AllApps";
 
 const Apps = () => {
-    
-    return (
-        <div>
-            Apps Page
-
-
-            <div>
-                <AllApps></AllApps>
-            </div>
-        </div>
-    );
+  return (
+    <div className="mt-10">
+      <div className="text-center mb-10">
+        <h1 className="text-3xl font-semibold ">Our All Applications</h1>
+        <p>Explore All Apps on the Market developed by us</p>
+      </div>
+      
+      <div>
+        <AllApps></AllApps>
+      </div>
+    </div>
+  );
 };
 
 export default Apps;
