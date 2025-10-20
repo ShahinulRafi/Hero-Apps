@@ -9,6 +9,7 @@ import Home from "./pages/Home.jsx";
 import Apps from "./pages/Apps.jsx";
 import Installation from "./pages/Installation.jsx";
 import Error from "./pages/Error.jsx";
+import Details from "./pages/Details.jsx";
 
 const router = createBrowserRouter([
   {
@@ -29,9 +30,15 @@ const router = createBrowserRouter([
         path: "installation",
         element: <Installation></Installation>,
       },
-      // {
-      //   path: 
-      // },
+      {
+        path: "Details/:id",
+        element: <Details></Details>,
+        loader: async ({ params }) => {
+          const res = await fetch(`/public/allApp.json`);
+          const data = await res.json();
+          return data.find((app) => app.id === parseInt(params.id));
+        },
+      },
       {
         path: "*",
         element: <Error></Error>,

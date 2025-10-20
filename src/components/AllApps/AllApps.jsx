@@ -43,9 +43,10 @@ const AllApps = () => {
         {filteredApp.length > 0 ? (filteredApp.map((app) => (
           <AppDetails key={app.id} apps={app}></AppDetails>
         ))
-        ) : (<p className="text-center text-gray-500 col-span-4">
-            No apps found.
-          </p>)}
+        ) : (<div className="text-center text-gray-500 col-span-4">
+            <img src="/public/App-Error.png" className="m-auto mt-10 mb-10" alt="" />
+            <h1 className="mb-10 text-white font-semibold text-2xl">App not found</h1>
+          </div>)}
       </div>
     </div>
   );

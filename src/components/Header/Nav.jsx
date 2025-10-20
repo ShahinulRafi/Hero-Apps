@@ -6,19 +6,19 @@ import React from "react";
 import { NavLink } from "react-router";
 const Nav = () => {
   return (
-    <nav className="mx-10 mt-10 flex justify-between items-center">
+    <nav className="mx-10 mt-10 md:flex md:justify-between items-center">
       <NavLink Link to="/home">
-        <div class="flex justify-between items-center gap-2">
-          <img src="/public/assets/logo.png" className="h-10" alt="" />
+        <div class="flex justify-center md:mb-0 mb-6 md:justify-between items-center gap-2">
+          <img src="/public/logo.png" className="h-10" alt="" />
           <h2 className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] font-bold text-xl text-transparent bg-clip-text">
             Hero.IO
           </h2>
         </div>
       </NavLink>
-      <div className="flex gap-5">
+      <div className="flex justify-center md:mb-0 mb-6 gap-5">
         <NavLink
           Link
-          to="/home"
+          to="/"
           className={({ isActive }) =>
             isActive
               ? "text-[#632EE3] underline font-semibold text-xl"
@@ -51,7 +51,7 @@ const Nav = () => {
         </NavLink>
       </div>
       <a href="https://www.github.com">
-        <button className="btn btn-primary flex justify-between items-center gap-1">
+        <button className="btn btn-primary mx-auto flex md:justify-between items-center gap-1">
           <FontAwesomeIcon icon={faGithub} className="mt-[1px]"/>
           <h2 className="text-xl font-semibold">Contribute</h2>
         </button>

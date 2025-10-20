@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
+import { useLoaderData } from "react-router";
+import IndividualPage from "../components/IndividualPage/IndividualPage";
 
 const Details = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  const app = useLoaderData();
+
+  return (
+    <div>
+      <IndividualPage app={app}></IndividualPage>
+    </div>
+  );
 };
 
 export default Details;
