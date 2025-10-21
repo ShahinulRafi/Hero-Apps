@@ -58,7 +58,7 @@ const IndividualPage = ({ app }) => {
           <div className="md:flex md:justify-between md:w-1/2">
             <div className="text-center">
               <img
-                src="/public/icon-downloads.png"
+                src="/icon-downloads.png"
                 className="mx-auto"
                 alt=""
               />
@@ -66,12 +66,12 @@ const IndividualPage = ({ app }) => {
               <h1 className="text-2xl font-bold">{app.downloads}</h1>
             </div>
             <div className="text-center md:mt-0 mt-5 md:mb-0 mb-5">
-              <img src="/public/icon-ratings.png" className="mx-auto" alt="" />
+              <img src="/icon-ratings.png" className="mx-auto" alt="" />
               <h1>Average Ratings</h1>
               <h1 className="text-2xl font-bold">{app.ratingAvg}</h1>
             </div>
             <div className="text-center">
-              <img src="/public/icon-review.png" className="mx-auto" alt="" />
+              <img src="/icon-review.png" className="mx-auto" alt="" />
               <h1>Total Reviews</h1>
               <h1 className="text-2xl font-bold">{app.reviews}</h1>
             </div>

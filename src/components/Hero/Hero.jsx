@@ -37,7 +37,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="mt-10 flex justify-center">
-        <img src="/public/assets/hero.png" alt="" />
+        <img src="/assets/hero.png" alt="" />
       </div>
     </div>
   );

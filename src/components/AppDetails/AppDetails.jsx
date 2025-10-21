@@ -20,7 +20,7 @@ const AppDetails = ({apps}) => {
             <div className="flex justify-between mt-4">
               <button className="btn btn-outline">
                 <img
-                  src="/public/icon-downloads.png"
+                  src="/icon-downloads.png"
                   alt=""
                   className="w-4"
                 />
@@ -28,7 +28,7 @@ const AppDetails = ({apps}) => {
               </button>
               <button className="btn btn-outline">
                 <img
-                  src="/public/icon-ratings.png"
+                  src="/icon-ratings.png"
                   alt=""
                   className="w-4"
                 />

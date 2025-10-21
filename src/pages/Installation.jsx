@@ -70,7 +70,7 @@ const Installation = () => {
                   <div className="flex gap-4 mt-6">
                     <div className="flex gap-2">
                       <img
-                        src="/public/icon-downloads.png"
+                        src="/icon-downloads.png"
                         className="h-6"
                         alt=""
                       />
@@ -78,7 +78,7 @@ const Installation = () => {
                     </div>
                     <div className="flex gap-2">
                       <img
-                        src="/public/icon-ratings.png"
+                        src="/icon-ratings.png"
                         className="h-6"
                         alt=""
                       />

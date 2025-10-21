@@ -9,7 +9,7 @@ const Nav = () => {
     <nav className="mx-10 mt-10 md:flex md:justify-between items-center">
       <NavLink Link to="/home">
         <div class="flex justify-center md:mb-0 mb-6 md:justify-between items-center gap-2">
-          <img src="/public/logo.png" className="h-10" alt="" />
+          <img src="/logo.png" className="h-10" alt="" />
           <h2 className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] font-bold text-xl text-transparent bg-clip-text">
             Hero.IO
           </h2>

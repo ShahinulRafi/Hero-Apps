@@ -5,7 +5,7 @@ const Error = () => {
     const navigagteBack = useNavigate();
   return (
     <div className="mx-auto text-center m-20">
-      <img src="/public/error-404.png" className="mx-auto" alt="" />
+      <img src="/error-404.png" className="mx-auto" alt="" />
 
       <h1 className="text-3xl font-semibold mt-5 mb-4">Oops, page not found!</h1>
       <h5>The Page you are looking for is not available.</h5>
