@@ -19,12 +19,12 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home></Home>,
-        loader: () => fetch("/public/trending.json").then((res) => res.json()),
+        loader: () => fetch("/trending.json").then((res) => res.json()),
       },
       {
         path: "/Apps",
         element: <Apps></Apps>,
-        loader: () => fetch("/public/allApp.json").then((res) => res.json()),
+        loader: () => fetch("/allApp.json").then((res) => res.json()),
       },
       {
         path: "/installation",
@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         path: "/Details/:id",
         element: <Details></Details>,
         loader: async ({ params }) => {
-          const res = await fetch(`/public/allApp.json`);
+          const res = await fetch(`/allApp.json`);
           const data = await res.json();
           return data.find((app) => app.id === parseInt(params.id));
         },
