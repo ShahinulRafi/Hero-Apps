@@ -50,7 +50,7 @@ const Nav = () => {
           Installation
         </NavLink>
       </div>
-      <a href="https://www.github.com">
+      <a href="https://www.github.com/ShahinulRafi">
         <button className="btn btn-primary mx-auto flex md:justify-between items-center gap-1">
           <FontAwesomeIcon icon={faGithub} className="mt-[1px]"/>
           <h2 className="text-xl font-semibold">Contribute</h2>

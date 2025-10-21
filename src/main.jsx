@@ -22,16 +22,16 @@ const router = createBrowserRouter([
         loader: () => fetch("/public/trending.json").then((res) => res.json()),
       },
       {
-        path: "Apps",
+        path: "/Apps",
         element: <Apps></Apps>,
         loader: () => fetch("/public/allApp.json").then((res) => res.json()),
       },
       {
-        path: "installation",
+        path: "/installation",
         element: <Installation></Installation>,
       },
       {
-        path: "Details/:id",
+        path: "/Details/:id",
         element: <Details></Details>,
         loader: async ({ params }) => {
           const res = await fetch(`/public/allApp.json`);

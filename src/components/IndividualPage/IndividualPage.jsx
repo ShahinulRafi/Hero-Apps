@@ -32,6 +32,7 @@ const IndividualPage = ({ app }) => {
         id: app.id,
         title: app.title,
         size: app.size,
+        downloads: app.downloads,
         ratingAvg: app.ratingAvg,
         image: app.image.replace("/public", ""), // fix path
       });
