@@ -34,7 +34,7 @@ const IndividualPage = ({ app }) => {
         size: app.size,
         downloads: app.downloads,
         ratingAvg: app.ratingAvg,
-        image: app.image.replace("/public", ""), // fix path
+        image: app.image.replace("/public", ""),
       });
       localStorage.setItem("installedApps", JSON.stringify(installedApps));
     }
@@ -46,7 +46,7 @@ const IndividualPage = ({ app }) => {
   return (
     <div className="mx-12">
       <div className="flex gap-10 mt-10">
-        <img src={app.image} alt="" />
+        <img src={`/${app.image}`} alt="" />
         <div className="w-full">
           <h1 className="text-xl font-semibold">{app.title}</h1>
           <h1>
